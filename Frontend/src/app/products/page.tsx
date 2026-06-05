@@ -7,10 +7,10 @@ import ProductCard from '@/components/ProductCard';
 
 export default function ProductsPage() {
   const dummyProducts = [
-    { id: 1, name: "Fresh Milk", price: 65, imageUrl: "https://via.placeholder.com/150", stockQuantity: 10, categoryId: 1 },
-    { id: 2, name: "Whole Wheat Bread", price: 40, imageUrl: "https://via.placeholder.com/150", stockQuantity: 5, categoryId: 2 },
-    { id: 3, name: "Farm Eggs (12 pcs)", price: 85, imageUrl: "https://via.placeholder.com/150", stockQuantity: 20, categoryId: 1 },
-    { id: 4, name: "Apples (1kg)", price: 120, imageUrl: "https://via.placeholder.com/150", stockQuantity: 8, categoryId: 3 },
+    { id: 1, name: "Fresh Milk", price: 65, discountPrice: 60, imageUrl: "https://via.placeholder.com/150", stock: 10, category: { name: "Dairy" } },
+    { id: 2, name: "Whole Wheat Bread", price: 40, discountPrice: 35, imageUrl: "https://via.placeholder.com/150", stock: 5, category: { name: "Bakery" } },
+    { id: 3, name: "Farm Eggs (12 pcs)", price: 85, discountPrice: 80, imageUrl: "https://via.placeholder.com/150", stock: 20, category: { name: "Dairy" } },
+    { id: 4, name: "Apples (1kg)", price: 120, discountPrice: 110, imageUrl: "https://via.placeholder.com/150", stock: 8, category: { name: "Fruits" } },
   ];
 
   return (

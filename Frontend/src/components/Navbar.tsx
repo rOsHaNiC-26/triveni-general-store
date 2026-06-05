@@ -41,11 +41,17 @@ export default function Navbar() {
 
           {/* Right Icons */}
           <div className="flex items-center space-x-4 sm:space-x-6">
-            <Link href="/profile" className="text-gray-700 hover:text-green-600 transition flex items-center font-medium">
+            <a href="http://localhost:3001" className="text-sm font-semibold text-gray-700 hover:text-green-600 transition hidden lg:block" target="_blank" rel="noopener noreferrer">
+              Admin
+            </a>
+            <a href="http://localhost:3002" className="text-sm font-semibold text-gray-700 hover:text-green-600 transition hidden lg:block" target="_blank" rel="noopener noreferrer">
+              Delivery
+            </a>
+            <Link href="/profile" className="text-gray-700 hover:text-green-600 transition hidden md:flex items-center font-medium">
               <User className="h-6 w-6" />
             </Link>
             
-            <Link href="/cart" className="relative p-2 text-white bg-green-600 hover:bg-green-700 rounded-xl transition flex items-center space-x-2 px-3 sm:px-4 shadow-sm hover:shadow-md">
+            <Link href="/cart" className="relative p-2 text-white bg-green-600 hover:bg-green-700 rounded-xl transition hidden md:flex items-center space-x-2 px-3 sm:px-4 shadow-sm hover:shadow-md">
               <ShoppingCart className="h-5 w-5" />
               <span className="font-bold hidden sm:block">My Cart</span>
               {cartCount > 0 && (

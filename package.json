@@ -1,0 +1,15 @@
+{
+  "name": "triveni-general-store-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:admin\" \"npm run dev:delivery\" \"npm run dev:backend\"",
+    "dev:frontend": "cd Frontend && npm run dev",
+    "dev:admin": "cd \"Admin Panel\" && npm run dev",
+    "dev:delivery": "cd \"Delivery Partner Panel\" && npm run dev",
+    "dev:backend": "cd Backend && dotnet run"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

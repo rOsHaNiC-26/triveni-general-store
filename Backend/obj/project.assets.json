@@ -3947,11 +3947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rosha\\OneDrive\\Desktop\\triveni store\\Backend\\Triveni.Backend.csproj",
+      "projectUniqueName": "C:\\Users\\rosha\\OneDrive\\Desktop\\Roshni all projecs\\Github\\triveni-general-store\\Backend\\Triveni.Backend.csproj",
       "projectName": "Triveni.Backend",
-      "projectPath": "C:\\Users\\rosha\\OneDrive\\Desktop\\triveni store\\Backend\\Triveni.Backend.csproj",
+      "projectPath": "C:\\Users\\rosha\\OneDrive\\Desktop\\Roshni all projecs\\Github\\triveni-general-store\\Backend\\Triveni.Backend.csproj",
       "packagesPath": "C:\\Users\\rosha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rosha\\OneDrive\\Desktop\\triveni store\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\rosha\\OneDrive\\Desktop\\Roshni all projecs\\Github\\triveni-general-store\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

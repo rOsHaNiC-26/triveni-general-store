@@ -18,6 +18,7 @@ export const metadata: Metadata = {
 };
 
 import ReduxProvider from "@/components/ReduxProvider";
+import BottomNav from "@/components/BottomNav";
 
 export default function RootLayout({
   children,
@@ -27,10 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 text-gray-900`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 text-gray-900 pb-16 md:pb-0`}
       >
         <ReduxProvider>
           {children}
+          <BottomNav />
         </ReduxProvider>
       </body>
     </html>
